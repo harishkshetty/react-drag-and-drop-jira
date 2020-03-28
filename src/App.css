@@ -1,10 +1,49 @@
 .App {
   text-align: center;
+ display:flex;
+ margin:0 auto;
 }
+.major{
+  border:2px solid #071853ba;
+  flex: 1;
+  margin:10px;
+}
+.task{
+  background-color: #42427c;
+  color:white;
+    min-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    width:90%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+    margin:10px auto;
+}
+.title{
+  font-weight: bold;
+  font-size:20px;
+  font-family: cursive;
+}
+.task:first-child{
+  margin: 0 0;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.listData{
+  position: relative;
+  padding:10px;
+}
+.projectTitle{
+  font-size:30px;
+  font-family: cursive;
+  font-weight:bold;
+  color:greenyellow;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
